@@ -1,0 +1,36 @@
+
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.2'
+    }
+}
+
+plugins {
+    id 'org.spongepowered.plugin' version '0.9.0'
+}
+
+dependencies {
+    compileOnly 'org.spongepowered:spongeapi:7.0.0'
+    compile 'org.spongepowered:spongecommon:7.1.0:dev'
+    annotationProcessor 'org.spongepowered:spongeapi:7.0.0'
+    compile files("libs/FTBLib-5.4.0.73.jar")
+    compile files("libs/FTBUtilities-5.3.0.69.jar")
+    compile files("libs/minecraft_server.1.12.2.jar")
+    compile files("libs/forgeSrc-1.12.2-14.23.5.2838-PROJECT(SpongeForge).jar")
+}
+// Apply the access transformers of the subprojects
+subprojects.each {
+    it.sourceSets.main.resources.files.each {
+        if (it.name.endsWith('_at.cfg')) {
+            logger.lifecycle('Found AccessTransformer in dependency resources: $it.name')
+            tasks.deobfBinJar.addTransformer(it)
+            tasks.deobfuscateJar.addTransformer(it)
+        }
+    }
+}
+sponge.plugin.id = pluginId
