@@ -1,6 +1,6 @@
-package xyz.pwnstar.ftbextras.commands;
+package xyz.pwncraft.ftbextras.commands;
 
-import xyz.pwnstar.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.utility.Utility;
 import org.spongepowered.api.command.CommandResult;
 import org.spongepowered.api.command.CommandSource;
 import org.spongepowered.api.command.args.CommandContext;

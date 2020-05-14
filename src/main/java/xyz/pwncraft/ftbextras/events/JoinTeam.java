@@ -1,9 +1,9 @@
-package xyz.pwnstar.ftbextras.events;
+package xyz.pwncraft.ftbextras.events;
 
 import com.feed_the_beast.ftblib.events.team.ForgeTeamPlayerJoinedEvent;
 import com.feed_the_beast.ftblib.lib.data.ForgeTeam;
-import xyz.pwnstar.ftbextras.FTBLibCompat;
-import xyz.pwnstar.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.FTBLibCompat;
+import xyz.pwncraft.ftbextras.utility.Utility;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import org.spongepowered.api.Sponge;
 

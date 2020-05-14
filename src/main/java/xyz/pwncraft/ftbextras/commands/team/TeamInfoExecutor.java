@@ -1,11 +1,11 @@
-package xyz.pwnstar.ftbextras.commands.team;
+package xyz.pwncraft.ftbextras.commands.team;
 
 import com.feed_the_beast.ftblib.lib.data.ForgeTeam;
 import com.feed_the_beast.ftblib.lib.data.Universe;
 import com.feed_the_beast.ftblib.lib.math.ChunkDimPos;
 import com.feed_the_beast.ftbutilities.data.ClaimedChunk;
 import com.feed_the_beast.ftbutilities.data.ClaimedChunks;
-import xyz.pwnstar.ftbextras.utility.TeamInfo;
+import xyz.pwncraft.ftbextras.utility.TeamInfo;
 import net.minecraft.entity.player.EntityPlayerMP;
 import org.spongepowered.api.command.CommandException;
 import org.spongepowered.api.command.CommandResult;
@@ -14,7 +14,7 @@ import org.spongepowered.api.command.args.CommandContext;
 import org.spongepowered.api.command.spec.CommandExecutor;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.text.Text;
-import xyz.pwnstar.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.utility.Utility;
 
 public class TeamInfoExecutor implements CommandExecutor {
 

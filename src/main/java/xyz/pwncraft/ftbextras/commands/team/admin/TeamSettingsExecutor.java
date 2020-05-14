@@ -1,4 +1,4 @@
-package xyz.pwnstar.ftbextras.commands.team.admin;
+package xyz.pwncraft.ftbextras.commands.team.admin;
 
 import com.feed_the_beast.ftblib.lib.data.FTBLibAPI;
 import com.feed_the_beast.ftblib.lib.data.ForgeTeam;

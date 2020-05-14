@@ -1,12 +1,12 @@
-package xyz.pwnstar.ftbextras.events;
+package xyz.pwncraft.ftbextras.events;
 
 import com.feed_the_beast.ftblib.lib.data.ForgeTeam;
 import com.feed_the_beast.ftblib.lib.data.Universe;
 import com.feed_the_beast.ftblib.lib.math.ChunkDimPos;
 import com.feed_the_beast.ftbutilities.data.ClaimedChunk;
 import com.feed_the_beast.ftbutilities.data.ClaimedChunks;
-import xyz.pwnstar.ftbextras.FTBLibCompat;
-import xyz.pwnstar.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.FTBLibCompat;
+import xyz.pwncraft.ftbextras.utility.Utility;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.event.entity.EntityEvent.EnteringChunk;

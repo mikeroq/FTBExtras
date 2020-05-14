@@ -1,10 +1,10 @@
-package xyz.pwnstar.ftbextras.commands;
+package xyz.pwncraft.ftbextras.commands;
 
 import com.feed_the_beast.ftblib.lib.math.ChunkDimPos;
 import com.feed_the_beast.ftbutilities.data.ClaimedChunk;
 import com.feed_the_beast.ftbutilities.data.ClaimedChunks;
-import xyz.pwnstar.ftbextras.utility.TeamInfo;
-import xyz.pwnstar.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.utility.TeamInfo;
+import xyz.pwncraft.ftbextras.utility.Utility;
 import net.minecraft.entity.player.EntityPlayerMP;
 import org.spongepowered.api.command.CommandException;
 import org.spongepowered.api.command.CommandResult;

@@ -1,4 +1,4 @@
-package xyz.pwnstar.ftbextras.commands.team;
+package xyz.pwncraft.ftbextras.commands.team;
 
 import com.feed_the_beast.ftblib.lib.data.ForgePlayer;
 import com.feed_the_beast.ftblib.lib.data.Universe;
@@ -8,8 +8,8 @@ import org.spongepowered.api.command.CommandSource;
 import org.spongepowered.api.command.args.CommandContext;
 import org.spongepowered.api.command.spec.CommandExecutor;
 import org.spongepowered.api.entity.living.player.User;
-import xyz.pwnstar.ftbextras.utility.TeamInfo;
-import xyz.pwnstar.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.utility.TeamInfo;
+import xyz.pwncraft.ftbextras.utility.Utility;
 
 import java.util.Optional;
 

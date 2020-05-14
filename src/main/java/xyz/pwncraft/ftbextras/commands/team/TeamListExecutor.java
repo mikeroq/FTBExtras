@@ -1,9 +1,9 @@
-package xyz.pwnstar.ftbextras.commands.team;
+package xyz.pwncraft.ftbextras.commands.team;
 
 import com.feed_the_beast.ftblib.lib.data.ForgeTeam;
 import com.feed_the_beast.ftblib.lib.data.Universe;
-import xyz.pwnstar.ftbextras.FTBLibCompat;
-import xyz.pwnstar.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.FTBLibCompat;
+import xyz.pwncraft.ftbextras.utility.Utility;
 import org.spongepowered.api.command.CommandResult;
 import org.spongepowered.api.command.CommandSource;
 import org.spongepowered.api.command.args.CommandContext;

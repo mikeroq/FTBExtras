@@ -1,4 +1,4 @@
-package xyz.pwnstar.ftbextras.commands.chunk;
+package xyz.pwncraft.ftbextras.commands.chunk;
 
 import org.spongepowered.api.command.CommandException;
 import org.spongepowered.api.command.CommandResult;

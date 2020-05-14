@@ -1,4 +1,4 @@
-package xyz.pwnstar.ftbextras.utility;
+package xyz.pwncraft.ftbextras.utility;
 
 import com.feed_the_beast.ftblib.lib.data.ForgePlayer;
 import com.feed_the_beast.ftblib.lib.math.ChunkDimPos;

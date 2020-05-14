@@ -1,15 +1,13 @@
-package xyz.pwnstar.ftbextras;
+package xyz.pwncraft.ftbextras;
 
 import com.google.inject.Inject;
-import xyz.pwnstar.ftbextras.commands.*;
-import xyz.pwnstar.ftbextras.commands.chunk.admin.ClaimChunkExecutor;
-import xyz.pwnstar.ftbextras.commands.chunk.admin.UnclaimChunksExecutor;
-import xyz.pwnstar.ftbextras.commands.team.TeamFromPlayerExecutor;
-import xyz.pwnstar.ftbextras.commands.team.TeamInfoExecutor;
-import xyz.pwnstar.ftbextras.commands.team.TeamListExecutor;
-import xyz.pwnstar.ftbextras.commands.team.admin.*;
-import xyz.pwnstar.ftbextras.events.ChunkEvent;
-import xyz.pwnstar.ftbextras.events.JoinTeam;
+import xyz.pwncraft.ftbextras.commands.*;
+import xyz.pwncraft.ftbextras.commands.chunk.*;
+import xyz.pwncraft.ftbextras.commands.team.*;
+import xyz.pwncraft.ftbextras.commands.team.admin.*;
+import xyz.pwncraft.ftbextras.commands.chunk.admin.*;
+import xyz.pwncraft.ftbextras.events.ChunkEvent;
+import xyz.pwncraft.ftbextras.events.JoinTeam;
 import net.minecraftforge.common.MinecraftForge;
 import org.slf4j.Logger;
 import org.spongepowered.api.Sponge;

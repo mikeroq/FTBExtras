@@ -1,4 +1,4 @@
-package xyz.pwnstar.ftbextras.utility;
+package xyz.pwncraft.ftbextras.utility;
 
 import com.feed_the_beast.ftblib.lib.data.ForgePlayer;
 import com.feed_the_beast.ftblib.lib.data.ForgeTeam;
@@ -10,7 +10,7 @@ import org.spongepowered.api.service.pagination.PaginationList;
 import org.spongepowered.api.text.Text;
 import org.spongepowered.api.text.action.TextActions;
 import org.spongepowered.common.text.SpongeTexts;
-import xyz.pwnstar.ftbextras.FTBLibCompat;
+import xyz.pwncraft.ftbextras.FTBLibCompat;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;

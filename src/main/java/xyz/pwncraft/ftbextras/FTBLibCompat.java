@@ -1,4 +1,4 @@
-package xyz.pwnstar.ftbextras;
+package xyz.pwncraft.ftbextras;
 
 import com.feed_the_beast.ftblib.lib.data.ForgePlayer;
 import com.feed_the_beast.ftblib.lib.data.ForgeTeam;

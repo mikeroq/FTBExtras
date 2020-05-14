@@ -1,9 +1,9 @@
-package xyz.pwnstar.ftbextras.commands.chunk.admin;
+package xyz.pwncraft.ftbextras.commands.chunk.admin;
 
 import com.feed_the_beast.ftblib.lib.data.ForgePlayer;
 import com.feed_the_beast.ftblib.lib.data.Universe;
-import xyz.pwnstar.ftbextras.utility.Utility;
-import xyz.pwnstar.ftbextras.FTBLibCompat;
+import xyz.pwncraft.ftbextras.utility.Utility;
+import xyz.pwncraft.ftbextras.FTBLibCompat;
 import org.spongepowered.api.command.CommandException;
 import org.spongepowered.api.command.CommandResult;
 import org.spongepowered.api.command.CommandSource;
